@@ -1,0 +1,187 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="new.css">
+
+    <title>personalportfolio</title>
+</head>
+
+<body>
+    <!-- Further code here -->
+    <nav id="navbar" class="navbar"><a href="#"></a></nav>
+
+    <div class="container">
+        <!----- NAVIGATION MENU ------>
+    
+        <div class="menu">
+            <a href="#welcome-section" class="menu-icon fas fa-home"></a>
+            <a href="#about" class="menu-icon fas fa-user"></a>
+            <a href="#projects" class="menu-icon fas fa-code"></a>
+            <a href="#contact" class="menu-icon fas fa-envelope"></a>
+        </div>
+    
+        <!----- MAIN "WINDOW" ------>
+    
+        <div class="portfolio">
+            <!--=============== HEADER SECTION ===============-->
+    
+            <section class="header">
+                <img class="header-img"
+                    src="mine.1.jpg" />
+                <h1>Bizuayehu Simachew</h1>
+                <h2>Frontend Developer</h2>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </section>
+    
+            <!----- CONTENT SECTION =----->
+    
+            <div class="content">
+                <!---- HOME -->
+    
+                <section class="content-card home" id="welcome-section">
+                    <h1>Hello, I am Buze</h1>
+                </section>
+    
+                <!-- ABOUT ME -->
+    
+                <section class="content-card about" id="about">
+                    <h1>About me</h1>
+                    <div class="about-item about-me">
+                        <p>
+                            elcome to my personal portfolio! My name is Bizuayehu and I am a software engineering student with a passion for programming. 
+                            My primary skills include CSS, HTML, and C++ programming languages.  
+                            I was responsible for designing the front-end with CSS and HTML, and writing the back-end using C++.  
+                            I enjoy working collaboratively with others to achieve common goals and always strive to deliver projects on time and within budget.
+                            Thank you for taking the time to view my portfolio. 
+                        </p>
+                    </div>
+                    <div class="col-2">
+                        <div class="about-item skills">
+                            <h1>Skills</h1>
+                            <span class="skill">HTML</span>
+                            <span class="skill">CSS</span>
+                            <span class="skill">C++</span>
+                        </div>
+    
+                        <div class="about-item languages">
+                            <h1>programming Languages</h1>
+                            <div class="language">
+                                <p>CSS</p>
+                                <span class="bar"><span class="polish"></span></span>
+                            </div>
+                            <div class="language">
+                                <p>HTML</p>
+                                <span class="bar"><span class="english"></span></span>
+                            </div>
+                            <div class="language">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+    
+                <!--=============== PROJECTS ===============-->
+    
+                <section class="content-card projects" id="projects">
+                    <h1>Projects</h1>
+                    <div class="col-2 project-list">
+                        <div class="project-tile">
+                            <img src="html.png" />
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>HTML</h3>
+                                    <p>
+                                        have expertise in HTML and can create clean and 
+                                        organized code to build dynamic and user-friendly websites for my portfolio.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tile">
+                            <img src="css.png" />
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>CSS</h3>
+                                    <p>
+                                        I have strong skills in CSS, 
+                                        including proficiency in using CSS frameworks like Bootstrap 
+                                         and Bulma to create responsive and visually appealing web pages.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tile">
+                            <img src="c++.png" />
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>C++</h3>
+                                    <p>
+                                        I have experience in C++ programming and can use my 
+                                        skills to develop efficient and effective software 
+                                        solutions for my portfolio projects.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tile">
+                            <img src="javascript.png" />
+                            <div class="overlay">
+                                <div class="project-description">
+                                    <h3>JavaScript</h3>
+                                    <p>
+                                        Skilled in creating dynamic and interactive web pages using 
+                                        JavaScript, with experience in libraries such as React and jQuery. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#">see more...</a>
+                </section>
+    
+                
+    
+                <!--=============== CONTACT ===============-->
+    
+                <section class="content-card contact" id="contact">
+                    <h1>Contact</h1>
+                    <form class="form" id="form" action="https://www.freecodecamp.com/email-submit">
+                        <div class="input-box">
+                            <input type="text" class="text-input" name="name" placeholder="Name" />
+                        </div>
+                        <div class="input-box">
+                            <input type="email" class="text-input" name="email" id="email" placeholder="Email" />
+                        </div>
+                        <div class="input-box">
+                            <input type="subject" class="text-input" name="subject" id="subject"
+                                placeholder="Subject" />
+                        </div>
+                        <div class="input-box">
+                            <textarea name="text" class="message" placeholder="Message..."></textarea>
+                        </div>
+                        <div class="input-box">
+                            <input type="submit" class="submit-btn" id="submit" value="submit" />
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
